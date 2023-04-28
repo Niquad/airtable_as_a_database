@@ -17,7 +17,7 @@ function submitData() {
    
   }; 
   // console.log(form_data);
-
+i
   // Sending the data to Airtable
   fetch("https://api.airtable.com/v0/" + my_airtable_base_id + "/" + table_name, {
     method: "POST",
